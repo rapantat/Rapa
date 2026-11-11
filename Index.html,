@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Website Rapah</title>
+</head>
+<body style="text-align:center; padding-top:100px; background:#101827; color:white; font-family:Arial;">
+
+    <h1>Website Pertamaku</h1>
+
+    <button onclick="tampilkanNama()">
+        Klik Aku!
+    </button>
+
+    <h2 id="nama"></h2>
+
+    <script>
+        function tampilkanNama() {
+            document.getElementById("nama").innerHTML = "Rapantat!";
+        }
+    </script>
+
+</body>
+</html>
